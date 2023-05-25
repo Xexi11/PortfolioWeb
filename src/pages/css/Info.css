@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.infoBox{
+    height: calc(100vh - 80px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    padding: 0 10%;
+    background-color: white;
+}
+.infoText{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    
+}
+.boxImg{
+    position: relative;
+    display: flex;
+    padding: 5px;
+    border-radius: 50%;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    z-index: 6;
+}
+
+h2{
+    font-family: 'Cambo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: rgba(218, 129, 25, 0.94);
+}
+h3{
+    font-family: 'Cambo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #320457;
+}
+h4{
+    position: relative;
+    font-family: 'Cambo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;  
+}
+p{
+    display: block;
+    text-align: justify;
+    width: 70%;
+    font-size: 1.2em;
+    color: #3d535f;
+}
+.infoTextBody{
+    margin: 5px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.tittleDiv{
+    position: relative;
+    left: -35%;
+    border-bottom: 8px solid #459BFF;
+    border-radius: 10%;
+}
+.fondoIMG{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    z-index: 150;
+    background-image: url("../../../public/img/background.jpeg") ;
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    z-index: 149;
+    background-image: url("../../../public/img/backgroundAdobe.png") ;
+    background-repeat: no-repeat; 
+    background-color: #EDEDED; 
+}

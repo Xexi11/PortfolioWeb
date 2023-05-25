@@ -1,0 +1,28 @@
+.contbox{
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    width: 100%;
+    padding: 0 10%;
+    background-color: white;
+}
+.contContainer{
+    padding-top: 2rem;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+.contListContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.title{
+    color: #459BFF;
+    border-bottom: 8px solid #459BFF;
+    border-radius: 10%;
+}
