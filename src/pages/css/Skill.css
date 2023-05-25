@@ -1,0 +1,15 @@
+.skillBox{
+    padding-top: 3rem;
+    height: calc(100vh - 80px);
+    overflow: hidden;
+    width: 100%;
+    background-color: #f3f5f8;
+}
+.skillContainer{
+    padding: 2;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}

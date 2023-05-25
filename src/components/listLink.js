@@ -11,7 +11,7 @@ function visitLinkedIn() {
   window.location.assign("https://www.linkedin.com/in/sergialsinacaldera/");
 }
 function visitInstagram() {
-  window.location.assign("https://www.mpmsoftware.com/es/inicio/");
+  window.location.assign("https://www.instagram.com/sergi_patr0n/");
 }
 function visitGithub() {
   window.location.assign("https://github.com/Xexi11");
@@ -69,7 +69,7 @@ export default function BasicList() {
             </ListItemButton>
           </ListItem>
           <Divider />
-          <ListItem disablePadding>
+          <ListItem disablePadding onClick={() => visitLinkedIn()}>
             <ListItemButton>
               <ListItemIcon>
                 <Avatar
@@ -82,7 +82,7 @@ export default function BasicList() {
             </ListItemButton>
           </ListItem>
           <Divider />
-          <ListItem disablePadding>
+          <ListItem disablePadding onClick={() => visitInstagram()}>
             <ListItemButton>
               <ListItemIcon>
                 <Avatar
@@ -95,7 +95,7 @@ export default function BasicList() {
             </ListItemButton>
           </ListItem>
           <Divider />
-          <ListItem disablePadding>
+          <ListItem disablePadding onClick={() => visitGithub()}>
             <ListItemButton>
               <ListItemIcon>
                 <Avatar

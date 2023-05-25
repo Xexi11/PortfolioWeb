@@ -63,6 +63,7 @@ h4{
     line-height: 36px;  
 }
 p{
+    padding: 2%;
     display: block;
     text-align: justify;
     width: 70%;
