@@ -221,4 +221,72 @@ button:hover{
         position: absolute;
         left: 0.5rem;
     }
+}
+    @media only screen and (max-width: 500px) {
+        body{
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+        
+        .cols{
+            width: 30%;
+        }
+        .cols0{
+            font-size: smaller;
+            width: 80%;
+        }
+        p{
+            color: black;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            width: 125%;
+        }
+        h1{
+            font-size: 3rem;
+        }
+        .wrapper::before{
+            position: absolute;
+            content: '';
+            height: 600px;
+            width: 600px;
+            border-radius: 50%;
+            left: -12%;
+            top: 40%;
+            background: linear-gradient(45deg,#459BFF, #F9F6EE );
+            animation: object1 6s linear infinite;
+            z-index: inherit;
+        }
+
+        .wrapper::after{
+            position: absolute;
+            content: '';
+            height: 0px;
+            width: 0px;
+            border-radius: 50%;
+            left: 35%;
+            top: 12%;
+            background: linear-gradient(45deg,#459BFF, #F9F6EE );
+            animation: object2 6s linear infinite;
+        }
+        .btns{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .imgbox{
+            opacity: 75%;
+            position: absolute;
+            left: 0.5rem;
+        }
+        .btns{
+            width: 50%;
+            position: relative;
+            left: 80px;
+        }
+        img{
+            width: 80%;
+            height: 40%;
+        }
   }
