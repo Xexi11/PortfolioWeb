@@ -22,11 +22,11 @@ function visitPlay() {
 export default function RowAndColumnSpacing() {
   return (
     <Box sx={{ width: "70%" }}>
-      <Grid container rowSpacing={1} columnSpacing={1}>
+      <Grid className="cardsBox" container rowSpacing={1} columnSpacing={1}>
         <Grid container item xs={4} onClick={() => visitMpm()}>
           <Card
             hoverable
-            style={{ width: 240, borderRadius: 10 }}
+            style={{ width: "220px", borderRadius: 10 }}
             cover={
               <img
                 alt="MPM Software"
@@ -44,7 +44,7 @@ export default function RowAndColumnSpacing() {
         <Grid container item xs={4} onClick={() => visitEngisoft()}>
           <Card
             hoverable
-            style={{ width: 240, borderRadius: 10 }}
+            style={{ width: "220px", borderRadius: 10 }}
             cover={
               <img
                 className="LogosEnterprise"
@@ -62,7 +62,7 @@ export default function RowAndColumnSpacing() {
         <Grid container item xs={4} onClick={() => visitPlay()}>
           <Card
             hoverable
-            style={{ width: 240, borderRadius: 10 }}
+            style={{ width: "220px", borderRadius: 10 }}
             cover={
               <img
                 alt="Playmotive.com"

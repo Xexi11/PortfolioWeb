@@ -1,9 +1,11 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import "./css/Home.css";
+import dowloadPDF from "../cvSergi.pdf";
 
 export default function Home() {
-  const TextDynamic = ["Programmer", "Web Developer", "Designer UX/UI"];
+  const TextDynamic = ["Designer UX/UI", "Programmer", "Web Developer"];
+
   return (
     <div class="wrapper">
       <div class="cols cols0">
@@ -23,7 +25,9 @@ export default function Home() {
           digital y Computación, de la Universidad de Lérida (UDL).
         </p>
         <div class="btns">
-          <button>Dowload CV</button>
+          <a href={dowloadPDF} download="Cv_SergiAlsina">
+            <button>Dowload CV</button>
+          </a>
           <a href="/contact">
             <button>Contact</button>
           </a>

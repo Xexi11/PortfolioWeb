@@ -1,0 +1,5 @@
+@media only screen and (max-width: 800px) {
+    p{
+        padding: 30px;
+    }
+}

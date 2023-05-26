@@ -4,7 +4,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-
+import "./css/card.css";
 export default function ActionAreaCard() {
   function visitUdl() {
     window.location.assign("https://grauinteraccioicomputacio.udl.cat/es/");
@@ -31,7 +31,11 @@ export default function ActionAreaCard() {
           <Typography gutterBottom variant="h5" component="div">
             Grado en Técnicas de Interacción Digital y de Computación
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography
+            className="contenCard"
+            variant="body2"
+            color="text.secondary"
+          >
             Durante mi formación, aprendí las bases de los lenguajes de
             programación, juntamente con las bases de la creación de
             aplicaciones, creación de prototipos o mockups, organización de

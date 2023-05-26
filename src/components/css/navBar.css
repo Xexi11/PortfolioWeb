@@ -52,3 +52,50 @@ nav{
     color: #3d535f;
     margin: 25px 10px;
 }
+
+
+/*Responsive Desing for /info */
+
+@media only screen and (max-width: 800px) {
+    nav{
+        position: relative;        
+    }
+    .logo{
+        display: flex;
+        font-size: 34px;
+        font-weight: 800;
+        color: #3d535f;
+        letter-spacing: 3px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+@media only screen and (max-width: 580px) {
+    nav{
+        position: relative;        
+    }
+    .logo{
+        display: flex;
+        font-size: 30px;
+        font-weight: 700;
+        color: #3d535f;
+        letter-spacing: 2.5px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    nav{
+        position: relative;        
+    }
+    .logo{
+        display: flex;
+        font-size: 0px;
+        font-weight: 700;
+        color: #3d535f;
+        letter-spacing: 2.5px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}

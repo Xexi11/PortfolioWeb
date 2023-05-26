@@ -3,5 +3,102 @@
     align-items: center;
     justify-content: center;
     width: fit-content;
+    padding: 0.5rem;
     flex-direction: column;
+}
+.ant-rate{
+    font-size: 16px;
+}
+
+/*Responsive Desing for /skills */
+
+@media only screen and (max-width: 790px) {
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .skillBox{
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      padding: 0;
+
+    }
+    .containerBoxSkills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+
+    }
+    .MuiStack-root .containerSkills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+@media only screen and (max-width: 675px) {
+    .containerSkills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .skillImage{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .ant-rate{
+        font-size: 12px;
+        direction: column;
+    }
+}
+@media only screen and (max-width: 590px) {
+    body{
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    
+    .skillBox{
+      width: 100%;
+      height: 100%;
+      border-radius: 0;
+      padding: 0;
+
+    }
+    .containerBoxSkills{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+
+    }
+    .MuiStack-root .containerSkills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .boxMedia{
+        display: relative;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .skillImage{
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .ant-rate{
+        font-size: 11px;
+        direction: column;
+    }
 }

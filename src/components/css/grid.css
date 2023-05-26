@@ -7,3 +7,34 @@
     
 }
 
+
+/*Responsive Desing for /info */
+
+@media only screen and (max-width: 1500px) {
+    .cardsBox{
+        display: flex !important;
+        justify-content: center!important;
+        align-items: center!important;
+        flex-direction: column !important;
+        width: 80% !important;
+    }
+    .LogosEnterprise{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 125px;
+        
+    }
+    .webDesigns{
+        display: flex !important;
+        justify-content: center!important;
+        align-items: center!important;
+        flex-direction: column !important;
+        width: 80% !important;
+    }
+}
+
+
+
+
