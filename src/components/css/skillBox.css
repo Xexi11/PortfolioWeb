@@ -6,6 +6,7 @@
     padding: 0.5rem;
     flex-direction: column;
 }
+
 .ant-rate{
     font-size: 16px;
 }
@@ -101,4 +102,16 @@
         font-size: 11px;
         direction: column;
     }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .skillBox{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        padding: 1px;
+        border-radius: 2px ;
+    }
+
 }

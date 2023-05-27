@@ -20,17 +20,6 @@ export default function navBar() {
           <a href="/contact">contact</a>
         </li>
       </ul>
-      <div class="links">
-        <a href="#">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#">
-          <i class="fab fa-github"></i>
-        </a>
-      </div>
     </nav>
   );
 }

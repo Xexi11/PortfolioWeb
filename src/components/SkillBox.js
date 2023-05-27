@@ -16,7 +16,7 @@ export default function BasicStack() {
       sx={{
         height: "auto",
         width: "auto",
-        padding: "7rem",
+        padding: "5rem",
         borderRadius: "15rem",
         display: "flex",
         justifyContent: "center",

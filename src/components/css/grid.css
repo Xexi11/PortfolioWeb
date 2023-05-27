@@ -35,6 +35,23 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    h4{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    margin-left: 50px;  
+    }
+    .cardsBox{
+        position: relative;
+        left: -55px;
+        width: 100% !important;
+    }
+    .webDesigns{
+        position: relative;
+        left: -55px;
+        width: 100% !important;
+    }
 
 
-
+}

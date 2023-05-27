@@ -21,7 +21,7 @@ function visitPlay() {
 
 export default function RowAndColumnSpacing() {
   return (
-    <Box sx={{ width: "70%" }}>
+    <Box className="boxJobs" sx={{ width: "70%" }}>
       <Grid className="cardsBox" container rowSpacing={1} columnSpacing={1}>
         <Grid container item xs={4} onClick={() => visitMpm()}>
           <Card

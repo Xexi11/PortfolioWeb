@@ -99,3 +99,16 @@ nav{
         text-transform: uppercase;
     }
 }
+
+
+
+@media only screen and (max-width: 400px) {
+       
+    .navItems li a{
+        font-size: 22px;
+        color: #3d535f;
+        letter-spacing: 0.5px;
+
+    }
+
+}
