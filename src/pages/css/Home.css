@@ -337,42 +337,31 @@ button:hover{
         align-items: center;
         flex-direction: column;
     }
-    .imgbox{
-        opacity: 75%;
-        position: absolute;
-        left: 0.5rem;
-    }
+
     .btns{
         width: 50%;
         position: relative;
         left: 80px;
     }
+    .imgbox {
+        display: relative;
+        height: 700px;
+        width: 350px;
+        left: 200px;
+    } 
     .imgbox img{
-        position: relative;
-        width: calc(130%- 80px);
-        height: 100%;
-        top: 20px;
-        right: 90px;
-        transform: rotateY(180deg);
         animation: animateUser 0s linear infinite;
-        border-radius: 20px;
     }
     .imgbox #splash{
-        position: absolute;
-        top: 30%;
-        left: 15%;
-        transform: translate(-50%,-50%) rotate(-35deg);
-        width: 160%;
-        filter: saturate(200%);
         animation: animate 0s linear infinite;
     }
+
     @keyframes animateUser {
         0%{
             right: 0px;
             top: 0px;
         }
     }
-
     @keyframes animate{
         0%{
             top: 49%;
